@@ -25,6 +25,11 @@ import org.neodatis.odb.core.query.criteria.Where;
 import org.neodatis.odb.impl.core.query.criteria.CriteriaQuery;
 import javax.swing.SwingConstants;
 
+/**
+ * <h2>OperacionesDepart: esta clase se encarga del mantenimiento de los datos de departamento, se realizan altas, bajas, modificaciones y consultas</h2>
+ * @author Aldair
+ * 
+ */
 @SuppressWarnings("serial")
 public class OperacionesDepart extends JDialog  {
 	private static final String BBDD="Empleados.dat";
@@ -33,7 +38,7 @@ public class OperacionesDepart extends JDialog  {
 	private JTextField txNombre;
 	private JTextField txPoblacion;
 	private JLabel lblRespuesta;
-
+	
 	public OperacionesDepart() {
 		setTitle("Operaciones departamentos.");
 		setModal(true);

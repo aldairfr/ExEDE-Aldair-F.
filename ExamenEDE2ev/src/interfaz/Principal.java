@@ -1,3 +1,4 @@
+
 package interfaz;
 
 import java.awt.EventQueue;
@@ -14,6 +15,11 @@ import java.awt.Color;
 import javax.swing.border.LineBorder;
 import javax.swing.SwingConstants;
 
+/**
+ * 
+ * @author Aldair
+ * @version Version 1, 2019 
+ */
 @SuppressWarnings("serial")
 public class Principal extends JFrame {
 	private JPanel contentPane;
